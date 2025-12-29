@@ -1,8 +1,4 @@
-# Developer's Portfolio ✨
 
-🔗 : https://kshksh723.github.io/kimseunghye1206/
-
----
 
 ## 🛠 Tech Stack
 
