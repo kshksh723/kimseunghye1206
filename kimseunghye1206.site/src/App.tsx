@@ -2,10 +2,10 @@ import './App.css'
 
 function App() {
   function hadleOnclick() {
-    alert("안녕하세요! 김승혜입니다 :)")
+    alert("안녕하세요! 김승혜입니다. ")
   }
   function hadleOnclick1  (){
-    alert("dffd");
+    alert("잠시만요");
   }
   return (
     <>
@@ -51,8 +51,7 @@ function App() {
   <div className="bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-7">
     <h2 className="text-black text-xl font-bold mb-4">Welcome to My DEV STACK</h2>
     <p className="text-gray-700 text-sm mb-6 leading-relaxed">
-      현재 시스템이 정상적으로 작동 중입니다. <br />
-      기술 스택을 확인하려면 '확인' 버튼을 누르세요.
+      정상영업중입니다.
     </p>
 
     {/* 버튼 정렬 */}
