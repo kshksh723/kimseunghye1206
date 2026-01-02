@@ -4,7 +4,10 @@ import projectLink from "../img/link.png";
 function Windowsboxwhite () {
 
   function handleOnclick1() {
-    alert("© 2026 Kim Seung Hye :)  Last updated: january 2026");
+    alert("© 2026 Kim Seung Hye :) \n" + 
+    "Last updated : January 2026\n" + 
+    "Dev Stack : REACT, TYPESCRIPT, TAILWIND CSS"
+    );
   }
   
 
@@ -267,15 +270,87 @@ return (
     
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
       <p className="text-sm font-mono text-blue-600 mt-1">
-        Stack:  ORACLE, APACHE TOMCAT, JAVA, HTML, CSS, JAVASCRIPT, JQEURY, GITHUB, EXERD, Spring Boot, AWS(EC2), 공공데이터 API
+        Stack:  HTML, CSS, JAVASCRIPT, JQUERY, JSP, JAVA, SPRING BOOT, 공공데이터 API, ORACLE, EXERD, APACHE TOMCAT, AWS(EC2), GITHUB
       </p>
-      <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
-        <li> <strong>역할</strong> : 회원과 관리자의 관점에서 공지사항, 공공데이터 API를 활용한 의료통계 시각화, 회원관리 </li>
-        <li>의료 관련 정보를 제공해주는 페이지</li>
-      </ul>
+     <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+     <li>
+    <strong>역할 :</strong> 회원/관리자 기능(공지사항, 회원관리) 구현 및 공공데이터 연동 담당
+  </li>
+  <li>
+    공공데이터 API를 활용한 <strong>의료 시설 현황 및 통계 시각화</strong> 서비스
+  </li>
+  <li>
+    <strong>회원 및 권한 관리 :</strong> 로그인/로그아웃 및 세션 기반의 권한별(일반/의료진/관리자) 접근 제어 구현
+  </li>
+  <li>
+    <strong>게시판 엔진 설계 :</strong> 
+    <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+      <li>MyBatis와 SQL <code>BETWEEN</code> 연산을 활용한 커스텀 <strong>페이징 처리</strong> 및 검색 로직 구축</li>
+      <li>SmartEditor2 연동 및 파일 업로드/원본명 유지 다운로드 시스템 구현</li>
+      <li>관리자 예외 처리가 포함된 중복 조회수 방지 로직 적용</li>
+    </ul>
+  </li>
+  <li>
+    <strong>관리자 전역 기능 :</strong> 전체 회원 정보 상세 조회, 엑셀 다운로드, SMS API 연동 고객 알림 서비스 구축
+  </li>
+  <li>
+    <strong>통계 시각화 :</strong> 사용자 주소지 API 연동을 통한 지역별 입원실 및 보건 의료 현황 맞춤형 데이터 표시
+  </li>
+</ul>
     </ul>
   </div>  
 </div>
+
+
+<div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+  <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <a 
+      href="https://github.com/kshksh723/GoGoDak.git"
+      target='_blank'
+      className="group relative flex items-center w-fit cursor-pointer"
+    >
+      <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+        닭가슴살 구매 사이트
+      </span>
+
+      <img 
+        src={projectLink} 
+        alt="link" 
+        className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+      />
+    </a>
+
+    <span className="text-sm text-gray-600 font-medium">팀 프로젝트(5명)</span>
+  </div>
+  <span className="text-sm text-gray-500 tabular-nums">2024.05.07. ~ 2024.06.03.</span>
+</div>
+    
+    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+      <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack: HTML, CSS, JAVASCRIPT, JQUERY, JSP, JAVA, APACHE TOMCAT, ORACLE, EXERD, GITHUB
+      </p>
+      <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+  <li>
+    <strong>역할 :</strong> 로그인, 회원정보 수정, 주문 내역 조회, 주문확인(관리자), 회원정보 상세
+  </li>
+  <li>
+    <strong>회원 및 보안 :</strong> 유효성 검사를 적용한 회원가입/수정 및 아이디·비밀번호 찾기 로직 구현
+  </li>
+  <li>
+    <strong>주문 시스템 :</strong> 사용자 주문 내역 조회 및 상태 흐름 관리 기능 구현
+  </li>
+  <li>
+    <strong>관리자 대시보드 :</strong> 주문 현황 관리(배송 상태 변경) 및 전체 회원 정보 상세 조회 시스템 구축
+  </li>
+  <li>
+    <strong>DB 설계 및 연동 :</strong> EXERD를 활용한 10여 개 테이블 물리 모델링 및 MyBatis/JDBC 연동
+  </li>
+  <li>
+    <strong>외부 API 활용 :</strong> 카카오 주소 찾기 API 및 SMS(문자) 발송 API 연동을 통한 서비스 편의성 강화
+  </li>
+</ul>
+</ul>
+
 
             <div className="flex justify-end gap-4">
               {/* 클릭 시 상태 업데이트 */}
