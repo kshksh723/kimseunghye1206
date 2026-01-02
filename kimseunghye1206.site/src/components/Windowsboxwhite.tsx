@@ -387,7 +387,7 @@ return (
               멋쟁이 사자처럼 10기 Fronte-End 운영진으로 활동할 때 해커톤에 참여하여 '기억조각'이라는 소중한 추억을 조각처럼 저장하고 공유하는 커뮤니티형 웹 서비스를 구현
             </li>
             <li>
-              <strong>리팩토링 :</strong> 코드 퀄리티 향상 및 컴포넌트 최적화를 위한 <a href='https://github.com/kshksh723/fragment_of_memory.git' className='underline' target='_blank'>'기억조각 리팩토링'</a>을 진행할 예정입니다.
+              <strong>리팩토링 :</strong> 코드 퀄리티 향상 및 컴포넌트 최적화를 위한 <a href='https://github.com/kshksh723/fragment_of_memory.git' className='underline' target='_blank'>'기억조각 리팩토링'</a>을 진행할 예정
             </li>
           </ul>
     </ul>
@@ -405,7 +405,7 @@ return (
 
 <ul className="list-disc ml-13 text-gray-800 space-y-2 text-sm leading-relaxed">
   <p className="text-sm font-mono text-blue-600 mt-1">
-        Stack: React-Native
+        Stack: React-Native, Firebase(FireStore, Auth), GitHub, Figma
       </p>
   <li>
     <strong>성과 :</strong> 
@@ -419,16 +419,68 @@ return (
         </a>
       </li>
        <li>
-    <strong>(교내 공모전) 화려한 창업 아이디어 공모전 :</strong> 
+<div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-1 md:gap-4">
+         <a 
+        href="https://drive.google.com/file/d/1lbTYsUiU9t8Nt7GGc0qoo2AJzX9DIbva/view?usp=sharing"
+        target='_blank'
+        className="group relative flex items-center w-fit cursor-pointer"
+    >
+    <span className="font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
+     🏆 (교내 공모전) 화려한 창업 아이디어 공모전
+    </span>
+    <img 
+      src={projectLink} 
+      alt="link" 
+      className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+    />
+    </a>
+        <strong className="text-gray-900"></strong>
+        <div className="flex flex-col items-start md:items-end shrink-0">
+        <span className="text-xs text-gray-500 tabular-nums ">2021.11. ~ 2021.11.</span>
+        </div>
+      </div>
     <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
-      <li>MyBatis와 SQL <code>BETWEEN</code> 연산을 활용한 커스텀 <strong>페이징 처리</strong> 및 검색 로직 구축</li>
-      <li>SmartEditor2 연동 및 파일 업로드/원본명 유지 다운로드 시스템 구현</li>
-      <li>관리자 예외 처리가 포함된 중복 조회수 방지 로직 적용</li>
+      <li><strong>역할 및 구현 :</strong>
+        <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+          <li><strong>팀 리더(PM):</strong> 아이디어 기획 및 프로젝트 전체 일정/리소스 관리 주도</li>
+          <li><strong>공모전 포스터 : </strong> <a href='https://drive.google.com/file/d/1MD2XGg2q5OluT8CKTCFnl3TAHv2vGURW/view?usp=sharing' className='underline' target='_blank'>공모전 포스터</a></li>
+          <li><strong>프론트엔드 개발:</strong> React-Native 기반 UI 구현 및 데이터 실시간 동기화 로직 구축</li>
+          <li><strong>검색 시스템:</strong> Firebase 연동을 통한 실시간 다이어리 검색 및 필터링 기능 구현</li>
+        </ul>
+      </li>
     </ul>
-  </li> 
+   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-1 md:gap-4">
+             <a 
+        href="https://drive.google.com/file/d/1F_0H1vUhtcqDUHkyipHETiozWT7E58JD/view?usp=sharing"
+        target='_blank'
+        className="group relative flex items-center w-fit cursor-pointer"
+    >
+    <span className="font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
+     🏆 (지역 공모전) 광주전남혁신플랫폼 지역 혁신본부 동아리 성과 보고 전시 발표회
+    </span>
+    <img 
+      src={projectLink} 
+      alt="link" 
+      className="ml-1 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+    />
+    </a>
+    <div className="flex flex-col items-start md:items-end shrink-0">
+       <span className="text-xs text-gray-500 tabular-nums">2021.10. ~ 2022.04.</span>
+       </div>
+      </div>
+        <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+          <li><strong>역할 및 구현 :</strong>
+            <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+              <li><strong>화려한 창업 아이디어 공모전 리팩토링 UI :</strong> <a href='https://drive.google.com/file/d/1Qr_nJMoZoeZpsKcXwK6saLnU_OTl_V5U/view?usp=sharing' className='underline' target='_blank'>FIGMA</a>로 교환 다이어리 앱 디자인 수정하여 구현</li>
+              <li><strong>공모전 포스터 : </strong> <a href='https://drive.google.com/file/d/1MD2XGg2q5OluT8CKTCFnl3TAHv2vGURW/view?usp=sharing' className='underline' target='_blank'>공모전 포스터</a></li>
+              <li><strong>프론트엔드 개발:</strong> React-Native 기반 UI 구현 및 데이터 실시간 동기화 로직 구축</li>
+              <li><strong>검색 시스템:</strong> Firebase 연동을 통한 실시간 다이어리 검색 및 필터링 기능 구현</li>
+            </ul>
+          </li>
+        </ul>
+      </li> 
     </ul>
   </li>
-  {/* 기존 역할 및 기술 설명... */}
 </ul>
 
             <div className="flex justify-end gap-4">
