@@ -221,7 +221,7 @@ return (
       target='_blank'
       className="group relative flex items-center w-fit cursor-pointer"
     >
-      <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+      <span className="underline font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
         대학생 멘토링 페이지
       </span>
 
@@ -256,7 +256,7 @@ return (
       target='_blank'
       className="group relative flex items-center w-fit cursor-pointer"
     >
-      <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+      <span className="underline font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
         의료 정보 사이트
       </span>
 
@@ -313,7 +313,7 @@ return (
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+    <span className="underline font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
       닭가슴살 구매 사이트
     </span>
     <img 
@@ -359,7 +359,7 @@ return (
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+    <span className="underline font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
       기억조각
     </span>
     <img 
@@ -395,7 +395,7 @@ return (
 
 <div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
   <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
-    <span className="font-bold text-gray-900 text-base md:text-lg">친구들과 함께 쓰는 추억의 교환일기 APP</span>
+    <span className="underline font-bold text-gray-900 text-base md:text-lg">친구들과 함께 쓰는 추억의 교환일기 APP</span>
        <span className="text-sm text-gray-600 font-medium">팀 프로젝트(3명)</span>
     <span className="text-[10px] md:text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded border border-green-200">
       🏆 공모전 2관왕 (우수상 & 인기상)
@@ -491,7 +491,7 @@ return (
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+    <span className="underline font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
       4대 항만공사 창업 아이디어 발굴 해커톤
     </span>
     <img 
@@ -561,7 +561,7 @@ return (
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+    <span className="underline font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
       멋쟁이사자처럼 대학 10기
     </span>
     <img 
@@ -658,8 +658,6 @@ return (
   </ul>
 </div>
 
-
-  
         <div className="flex justify-end gap-4">
           <button onClick={handleOnclick1} className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 active:border-t-black active:border-l-black active:border-r-white active:border-b-white text-sm">
             확인
