@@ -3,6 +3,7 @@ import profileImg from '../img/profilePhoto.jpg';
 import projectLink from "../img/link.png";
 import smallObject from "../img/smallObjectProject.png";
 import PdfDownload from './PdfDownload';
+import pdf from "../img/pdf.png";
 function Windowsboxwhite () {
 
   function handleOnclick1() {
@@ -25,10 +26,25 @@ return (
                 <button className="bg-[#c0c0c0] text-black px-1 border border-white border-r-black border-b-black text-xs">x</button>
             </div>
         </div>
+        
   <div className="flex-1 bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-10 overflow-y-auto scrollbar-custom p-6 md:p-10 
         overflow-y-auto custom-scrollbar">
+          <div className='flex items-center justify-start md:justify-end'>
+  <img 
+              src={pdf} 
+              alt="PDF Icon" 
+              className="w-5 h-5 object-contain shrink-0"
+
+            />
+          <PdfDownload
+            fileUrl='files/portfolio.pdf'
+            fileName='김승혜_포트폴리오.pdf'
+            title="Portfolio PDF DownLoad"
+            />
+</div>
         <h2 className="text-black text-3xl font-extrabold">Kim Seung Hye</h2>
                         <p className="text-gray-500/68  font-light">꾸준히 성장하는 개발자</p>
+                        
     <div>
     
     <div className="w-48 h-60 overflow-hidden rounded-lg ml-auto">
@@ -36,13 +52,7 @@ return (
         src={profileImg} className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
         onContextMenu={(e) => e.preventDefault()} />
     </div>
-<div className='flex justify-center md:justify-end'>
-          <PdfDownload
-            fileUrl='files/portfolio.pdf'
-            fileName='김승혜_포트폴리오.pdf'
-            title="Portfolio PDF DownLoad"
-            />
-</div>
+
     <div className="mt-4 bg-white border-2 border-gray-500 p-4 h-full text-black font-mono overflow-y-auto">
   <h2 className="text-lg font-bold mb-3">👋 안녕하세요!</h2>
   <p className="leading-relaxed mb-4">
