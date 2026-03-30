@@ -1,5 +1,5 @@
 /* Devleoper's Portfolio 창 */
-import profileImg from '../img/profilePhoto.jpg';
+// import profileImg from '../img/profilePhoto.jpg';
 import projectLink from "../img/link.png";
 import smallObject from "../img/smallObjectProject.png";
 import PdfDownload from './PdfDownload';
@@ -46,22 +46,23 @@ return (
                         
     <div>
     
-    <div className="w-48 h-60 overflow-hidden rounded-lg ml-auto">
+    {/* <div className="w-48 h-60 overflow-hidden rounded-lg ml-auto">
       <img 
         src={profileImg} className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
         onContextMenu={(e) => e.preventDefault()} />
-    </div>
+    </div> */}
 
     <div className="mt-4 bg-white border-2 border-gray-500 p-4 h-full text-black font-mono overflow-y-auto">
   <h2 className="text-lg font-bold mb-3">👋 안녕하세요!</h2>
   <p className="leading-relaxed mb-4">
-    기획부터 구현까지, 프로젝트의 <span className="bg-yellow-200 px-1">A to Z를 경험하며 성장</span>해온 개발자입니다.
-    <br/>배움을 나누며 함께 성장하는 것을 좋아합니다.
+   실무 현장의 복잡한 로직을 안정적인 서비스로 연결하는 신입 개발자 김승혜입니다.
+   <br/> 지난 11개월간의 공공 SI와 시스템 운영 업무를 수행하며 현장을 경험했습니다.
+
+특히 디와이정보기술에서 정비창 스마트팩토리 구축사업의 창고관리 업무를 수행하며, C#의 레거시 로직과 PL/SQL 프로시저를 분석하고 기술 산출물로 문서화했습니다. 
+<br/>이 과정에서 수만 줄의 코드 속에서 숨겨진 데이터 흐름을 추적하는 끈기와 비즈니스 로직을 파악하는 안목을 길렀습니다. 이러한 노력으로 감리자분들로부터 'A+ 산출물'이라는 평가를 받으며, 복잡한 시스템의 핵심을 정확히 파악하고 문서화하는 능력을 인정받았습니다. 이는 IT 서비스 구현에 기여할 수 있는 저의 강점이라고 생각합니다.
+
   </p>
-  <ul className="list-disc ml-5 space-y-2 text-sm">
-    <li><strong>React-Native:</strong> 교환일기 앱 기획/개발 (교내 공모전 <strong>우수상</strong> && 지역 공모전 <strong>인기상</strong>)</li>
-    <li><strong>Professionalism:</strong> SI 근무 당시 산출물 작성 'A+' 등급 평가</li>
-  </ul>
+  
 </div>
     <h1 className="text-xl font-bold mb-4 pb-1 mt-6  border-b border-gray-200">Contact.</h1>
    <div className="p-1 flex flex-col md:flex-row text-gray-700 text-sm mb-6 leading-relaxed">
